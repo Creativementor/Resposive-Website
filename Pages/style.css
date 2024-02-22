@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* Navbar content starts here now */
+
+
+.nav-container {
+    height: 6rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Heading {
+    padding: 15px 50px;
+    color: #0a196f;
+    font-size: 3rem;
+    font-family: "poppins" sans-serif;
+}
+
+.search-box {
+    height: 40px;
+    width: 30rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.span_1 {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.input {
+    text-align: start;
+    height: 38px;
+    width: 25rem;
+    border: none;
+    outline: 0;
+}
+
+.span_2 {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.icons-div {
+    gap: 30px;
+    margin-right: 50px;
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+}
+
+.icon_1 {
+    font-size: 20px;
+    color: #0a196f;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px;
+    height: 40px;
+}
+
+.icon_2 {
+    font-size: 20px;
+    color: #0a196f;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: white;
+    height: 40px;
+    padding: 8px 9px;
+    width: 40px;
+}
+
+.icon_3 {
+    font-size: 20px;
+    color: #0a196f;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+/* Navbar content close here now */
+
+
+/* Navbar media query starts here now */
+
+@media (max-width: 990px) {
+    .icons-div {
+        display: none;
+    }
+
+    .search-box {
+        height: 40px;
+        width: 30rem;
+        border: 1px solid black;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .span_1 {
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .input {
+        text-align: start;
+        height: 38px;
+        width: 10rem;
+        border: none;
+        outline: 0;
+    }
+
+    .span_2 {
+        padding-right: 10px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .icons-div {
+        display: none;
+    }
+
+    .search-box {
+        height: 40px;
+        width: 20rem;
+        border: 1px solid black;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .span_1 {
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .input {
+        text-align: start;
+        height: 38px;
+        width: 10rem;
+        border: none;
+        outline: 0;
+    }
+
+    .span_2 {
+        padding-right: 10px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Heading {
+        padding: 10px 30px;
+        color: #0a196f;
+        font-size: 2rem;
+        font-family: "poppins" sans-serif;
+    }
+
+    .icons-div {
+        display: none;
+    }
+
+    .search-box {
+        height: 40px;
+        width: 15rem;
+        border: 1px solid black;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .span_1 {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .input {
+        text-align: start;
+        height: 38px;
+        width: 5rem;
+        border: none;
+        outline: 0;
+        font-size: 6px;
+    }
+
+    .span_2 {
+        padding-right: 10px;
+        font-size: 15px;
+    }
+}
+
+/* Two Cars Div's Work here we starting Now */
+
+.main-container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+/* This is the first container div work */
+
+.First-container {
+    width: 42%;
+    height: 600px;
+    background-color: #54a6ff;
+    border-radius: 10px;
+}
+
+.heading_para {
+    font-size: 50px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    padding: 30px 30px;
+}
+
+.para_one {
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 8px;
+    padding: 2px 30px;
+    line-height: 30px;
+}
+
+.btn {
+    font-size: 15px;
+    height: 50px;
+    width: 8rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #345bdb;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.car-img {
+    width: 60%;
+    height: 30%;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+/* First div container work close here */
+
+.Second-container {
+    width: 42%;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #264bc8;
+}
+
+/* Now we are start second div container work */
+
+.heading_para2 {
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    padding: 30px 30px;
+}
+
+.para_two {
+    font-size: 21px;
+    color: #ffffff;
+    letter-spacing: 9px;
+    padding: 2px 30px;
+    line-height: 30px;
+}
+
+.btn_2 {
+    font-size: 15px;
+    height: 50px;
+    width: 8rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #85a8f8;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.car_img_2 {
+    width: 60%;
+    height: 30%;
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+/* second div container work close here now  */
+
+
+/* two div's container media query work starts here now  */
+
+@media (max-width: 870px) {
+    .Second-container {
+        display: none;
+    }
+
+    .First-container {
+        width: 80%;
+        height: 600px;
+        background-color: #54a6ff;
+        border-radius: 10px;
+    }
+
+    .heading_para {
+        font-size: 50px;
+        color: #ffffff;
+        letter-spacing: 5px;
+        padding: 30px 30px;
+    }
+
+    .para_one {
+        font-size: 22px;
+        color: #ffffff;
+        letter-spacing: 8px;
+        padding: 2px 30px;
+        line-height: 30px;
+    }
+
+    .btn {
+        font-size: 15px;
+        height: 50px;
+        width: 8rem;
+        border-radius: 5px;
+        border: none;
+        background-color: #345bdb;
+        color: #ffffff;
+        margin-top: 30px;
+        margin-left: 10%;
+    }
+
+    .car-img {
+        width: 60%;
+        height: 30%;
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+}
+
+
+@media (max-width: 460px) {
+    .First-container {
+        width: 80%;
+        height: 600px;
+        background-color: #54a6ff;
+        border-radius: 10px;
+    }
+
+    .heading_para {
+        font-size: 30px;
+        color: #ffffff;
+        padding: 30px 30px;
+    }
+
+    .para_one {
+        font-size: 16px;
+        color: #ffffff;
+        padding: 0 20px;
+    }
+
+    .btn {
+        font-size: 15px;
+        height: 50px;
+        width: 8rem;
+        border-radius: 5px;
+        border: none;
+        background-color: #345bdb;
+        color: #ffffff;
+        margin-top: 30px;
+        margin-left: 10%;
+    }
+
+    .car-img {
+        width: 60%;
+        height: 30%;
+        margin-top: 15%;
+        margin-left: 30%;
+    }
+
+}
+
+/* two div's container media query work starts here now  */
+
+
+/*
+       
+          Now we are starting three div's containers which radio button, selected 
+          menu bar's and arrows div 
+        
+    */
+
+.parent_div {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 8%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#check{
+    padding: 22px 50px;
+    height: 30px;
+    width: 30px;
+}
+
+.Pick-up{
+    padding: 15px 10px;
+    font-size: 25px;
+    font-family: "poppins" sans-serif;
+}
+
+.Selectors {
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 150px;
+    width: 40%;
+    display: flex;
+}
+
+.select_1 {}
+
+.select_2 {}
+
+.select_3 {}
+
+.icon_div {
+    display: flex;
+    align-items: center;
+    background-color: #264bc8;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.span_1 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.span_2 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.selectors {
+    border-radius: 10px;
+    background-color: #ffffff;
+    height: 150px;
+    width: 40%;
+    display: flex;
+}
+
+#check_2{
+    padding: 22px 50px;
+    height: 30px;
+    width: 30px;
+}
+
+.Drop-down{
+    padding: 15px 10px;
+    font-size: 25px;
+    font-family: "poppins" sans-serif;
+}
