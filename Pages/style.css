@@ -443,10 +443,13 @@ body {
     background-color: #ffffff;
     height: 150px;
     width: 40%;
-    display: flex;
 }
 
-.select_1 {}
+
+.select_1 {
+    flex: content   ;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 .select_2 {}
 
