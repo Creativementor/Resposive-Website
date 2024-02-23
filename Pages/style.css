@@ -484,7 +484,7 @@ body {
 }
 
 
-select {
+#select_1 {
     border: none;
     height: 20px;
     margin-top: 10px;
@@ -496,11 +496,13 @@ select {
 
 #select_2 {
     border: none;
+    margin-top: 10px;
     margin-left: 25px;
 }
 
-#select_3{
+#select_3 {
     border: none;
+    margin-top: 10px;
     margin-left: 25px;
 }
 
@@ -531,3 +533,72 @@ select {
     border-radius: 15px;
 }
 
+.radio_box {
+    margin-top: 20px;
+}
+
+.radio_btn {
+    padding-left: 50px;
+}
+
+.pick_up {
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: "poppins" sans-serif;
+    font-weight: bold;
+}
+
+.selector_container {
+    margin-top: 30px;
+    display: flex;
+}
+
+.first-div {
+    height: 50px;
+    width: 200px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.small_heading_1 {
+    padding-left: 50px;
+}
+
+#select-1 {
+    border: none;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 42px;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.7);
+    width: 150px;
+}
+
+.Second-div {
+    height: 50px;
+    width: 200px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.small_heading_2 {
+    padding-left: 30px;
+}
+
+#select-2 {
+    border: none;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.Third-div:nth-last-child(1){
+    border: none;
+}
+
+.small_heading_3 {
+    padding-left: 30px;
+}
+
+#select-3 {
+    border: none;
+    margin-top: 10px;
+    margin-left: 25px;
+}
