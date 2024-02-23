@@ -14,10 +14,10 @@
     <div class="nav-container">
         <h1 class="Heading">Morent</h1>
         <div class="search-box">
-            <span class="span_1"><i class="fa-solid fa-magnifying-glass"></i></i>
+            <span class="span-1"><i class="fa-solid fa-magnifying-glass"></i></i>
             </span>
             <input type="Search" placeholder="Search something here" class="input" />
-            <span class="span_2"><i class="fa-solid fa-sliders"></i></span>
+            <span class="span-2"><i class="fa-solid fa-sliders"></i></span>
         </div>
 
         <div class="icons-div">
@@ -52,58 +52,103 @@
         menu bar's and arrows div
     
     -->
-    
     <div class="parent_div">
         
-        <div class="Selectors">
+        <div class="container_one">
             <div class="radio-box">
-                <label id="check" for="radio"><input type="radio"></label>
-            <span class="Pick-up">Pick-Up</span>
+                <span class="radio-btn"><input id="radio" type="radio"></span>
+                <span class="pick-up">Pick-Up</span>
             </div>
-            
-            <div class="select_1">
-                <span class="small-heading_1">Location</span>
-                <select name="Select your city">
+    
+        <div class="selector-container">
+            <div class="first_div">
+                <h3 class="small-heading_1">Location</h3>
+                 <select name="Select your city">
+                     <option value="Select your city">Select your city</option>
                     <option value="karachi">Karachi</option>
                     <option value="islamabad">Islamabad</option>
-                    <option value=rawalpindi">Rawalpindi</option>
                     <option value="lahore">Lahore</option>
-                    </select>
+                    <option value="haiderabad">Haiderabad</option>
+                 </select>
             </div>
-            <div class="select_2">
-                <span class="small-heading_1">Date</span>
-                <select name="Select your date">
-                    <option value="date">02-june-2024</option>
-                    <option value="date">03-june-2024</option>
-                    <option value=date">04-june-2024</option>
-                    <option value="date">05-june-2024</option>
+            <div class="Second_div">
+                <h3 class="small-heading_2">Date</h3>
+                <select id="select_2" name="Select your date">
+                    <option value="Select your date">Select your date</option>
+                    <option value="21-06-2024">21-06-2024</option>
+                    <option value="22-06-2024">22-06-2024</option>
+                    <option value="23-06-2024">23-06-2024</option>
+                    <option value="24-06-2024">24-06-2024</option>
                 </select>
             </div>
-            <div class="select_3">
-                <span class="small-heading_1">Date</span>
-                <select name="Select your time">
-                    <option value="time">08:00 Am</option>
-                    <option value="time">09:00 Am</option>
-                    <option value=time">10:00 Am</option>
-                    <option value="time">11:00 Am</option>
-                    </select>
-                </div>
+            <div class="Third_div">
+                <h3 class="small-heading_3">Time</h3>
+                 <select id="select_3" name="Select your time">
+                    <option value="Select your time">Select your time</option>
+                    <option value="08:00 Am">08:00 Am</option>
+                    <option value="09:00 Am">09:00 Am</option>
+                    <option value="10:00 Am">Select your time</option>
+                    <option value="11:00 Am">11:00 Am</option>
+                 </select>
             </div>
         </div>
-
-        <div class="icon_div">
-            <span class="span_1"><i class="fa-solid fa-arrow-up-long"></i></span>
-            <span class="span_2"><i class="fa-solid fa-arrow-down-long"></i></span>
-        </div>
-
-        <div class="selectors">
-            <label id="check_2" for="radio"><input class="drop-off" type="radio"></label>
-        <span class="Drop-down">Drop-Off</span>
-            <div class="Seclect_1"></div>
-            <div class="Seclect_2"></div>
-            <div class="Seclect_3"></div>
-        </div>
+    
     </div>
+        
+        <div class="container_two">
+            <span class="Up-arrow"><i class="fa-solid fa-arrow-up-long"></i></span>
+            <span class="down-arrow"><i class="fa-solid fa-arrow-down-long"></i></span>
+        </div>
+        
+        <div class="container_three">
+            <div class="container-one">
+                <div class="radio_box">
+                    <span class="radio-btn"><input id="radio" type="radio"></span>
+                    <span class="pick_up">Pick-Up</span>
+                </div>
+        
+            <div class="selector_container">
+                <div class="first-div">
+                    <h3 class="small_heading_1">Location</h3>
+                     <select name="Select your city">
+                         <option value="Select your city">Select your city</option>
+                        <option value="karachi">Karachi</option>
+                        <option value="islamabad">Islamabad</option>
+                        <option value="lahore">Lahore</option>
+                        <option value="haiderabad">Haiderabad</option>
+                     </select>
+                </div>
+        
+                <div class="Second-div">
+                    <h3 class="small_heading_2">Date</h3>
+                    <select id="select_2" name="Select your date">
+                        <option value="Select your date">Select your date
+                        </option>
+                        <option value="21-06-2024">21-06-2024</option>
+                        <option value="22-06-2024">22-06-2024</option>
+                        <option value="23-06-2024">23-06-2024</option>
+                        <option value="24-06-2024">24-06-2024</option>
+                    </select>
+                </div>
+        
+                <div class="Third-div">
+                    <h3 class="small_heading_3">Time</h3>
+                     <select id="select-3" name="Select your time">
+                        <option value="Select your time">Select your time</option>
+                        <option value="08:00 Am">08:00 Am</option>
+                        <option value="09:00 Am">09:00 Am</option>
+                        <option value="10:00 Am">Select your time</option>
+                        <option value="11:00 Am">11:00 Am</option>
+                     </select>
+                </div>
+        
+            </div>
+        
+        </div>
+    
+    </div>
+      
+
 
 </body>
 </html>
