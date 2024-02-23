@@ -485,6 +485,7 @@ body {
 
 
 #select_1 {
+    outline: 0;
     border: none;
     height: 20px;
     margin-top: 10px;
@@ -495,6 +496,7 @@ body {
 }
 
 #select_2 {
+    outline: 0;
     border: none;
     margin-top: 10px;
     color: rgba(0, 0, 0, 0.7);
@@ -502,6 +504,7 @@ body {
 }
 
 #select_3 {
+    outline: 0;
     border: none;
     margin-top: 10px;
     color: rgba(0, 0, 0, 0.7);
@@ -573,6 +576,7 @@ body {
     margin-left: 42px;
     font-size: 0.9rem;
     color: rgba(0, 0, 0, 0.7);
+    outline: 0;
     width: 150px;
 }
 
@@ -591,6 +595,7 @@ body {
     border: none;
     margin-top: 10px;
     color: rgba(0, 0, 0, 0.7);
+    outline: 0;
     margin-left: 25px;
 }
 
@@ -1231,15 +1236,15 @@ body {
         overflow: hidden;
         width: 100%;
         height: 450px;
-        /* gap: 20px; */
+        gap: 20px;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
         align-items: center;
         margin-top: 80px;
     }
 
     .container_one {
+        margin-top: 20px;
         width: 70%;
         height: 150px;
         background-color: #ffffff;
