@@ -6,6 +6,7 @@
 
 body {
     background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Navbar content starts here now */
@@ -633,11 +634,11 @@ body {
 @media (max-width: 1350px) {
     .parent_div {
         width: 100%;
-        height: 150px;
+        height: 200px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        margin-top: 80px;
+        margin-top: 150px;
     }
 
     .container_one {
@@ -831,12 +832,11 @@ body {
     .parent_div {
         overflow: hidden;
         width: 100%;
-        height: 400px;
-        gap: 20px;
+        height: 500px;
         flex-direction: column;
         flex-wrap: wrap;
-        /* align-items: center; */
-        margin-top: 80px;
+        align-items: center;
+        margin-top: 150px;
     }
 
     .container_one {
@@ -1033,12 +1033,11 @@ body {
     .parent_div {
         overflow: hidden;
         width: 100%;
-        height: 450px;
-        gap: 40px;
+        height: 500px;
         flex-direction: column;
         flex-wrap: wrap;
-        /* align-items: center; */
-        margin-top: 80px;
+        justify-content: center;
+        margin-top: 150px;
     }
 
     .container_one {
@@ -1235,20 +1234,20 @@ body {
     .parent_div {
         overflow: hidden;
         width: 100%;
-        height: 450px;
+        height: 500px;
         gap: 20px;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
     .container_one {
-        margin-top: 20px;
         width: 70%;
         height: 150px;
         background-color: #ffffff;
         border-radius: 15px;
+        margin-top: 50px;
     }
 
     .radio-box {
@@ -1338,8 +1337,7 @@ body {
         align-items: center;
         justify-content: center;
         border-radius: 5px;
-        margin-top: -60px;
-
+        margin-top: -50px;
     }
 
     .Up-arrow {
@@ -1355,7 +1353,7 @@ body {
     .container_three {
         width: 70%;
         height: 150px;
-        margin-top: -60px;
+        margin-top: -50px;
         background-color: #ffffff;
         border-radius: 15px;
         z-index: -1;
@@ -1447,7 +1445,7 @@ body {
         flex-direction: column;
         flex-wrap: wrap;
         /* align-items: center; */
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
     .container_one {
@@ -1455,7 +1453,6 @@ body {
         height: 150px;
         background-color: #ffffff;
         border-radius: 15px;
-        margin-top: 20px;
     }
 
     .radio-box {
@@ -1543,7 +1540,7 @@ body {
     }
 
     .container_two {
-        margin-top: -30px;
+        margin-top: -50px;
         width: 60px;
         height: 60px;
         background-color: #264bc8;
@@ -1568,7 +1565,7 @@ body {
         height: 150px;
         background-color: #ffffff;
         border-radius: 15px;
-        margin-top: -30px;
+        margin-top: -50px;
     }
 
     .radio_box {
@@ -1654,16 +1651,163 @@ body {
     }
 }
 
-         /* Short Heading */
+/*
+          Now we are close media query here three div's
+          containers
+          which is radio button, selected menu bar's and arrows div 
+    
+    */
 
-/* .heading_div{
-    margin-top: 30px;
-    width: 100px;
-    height: 50px;
-} */
+/* Short Heading */
 
-.car_heading{
-    text-align: left;
+.heading-div {
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    width: 100%;
+    height: 100px;
+}
+
+.car_heading {
     font-family: "popppins" sans-serif;
     font-size: 30px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+/*
+  
+    Now we are starting grid cards 12 car's div
+
+*/
+
+.grid-container1 {
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 300px);
+    gap: 40px;
+}
+
+.card {
+    background-color: #ffff;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Car-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-1 {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.item-2 {
+    font-size: 20px;
+    padding: 10px;
+    color: #db2719
+}
+
+.category-name {
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.car-set {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-box {
+    padding: 20px 0;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.cars-image {
+    width: 200px;
+}
+
+.icons-column {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.price-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.days{
+    padding-top: 5px;
+    padding-right: 50px;
+}
+
+.price {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 600px;
+    padding-top: 2px;
+}
+
+.old-price{
+   font-size: 15px;
+   color: rgba(0, 0, 0, 0.3); 
+}
+
+.rent-btn {
+    padding: 10px 15px;
+    background-color: #3563e9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.grid-container2{
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 300px);
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.grid-container3{
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 300px);
+    gap: 40px;
+}
+
+.redomendation-car{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.car-heading{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 250px;
 }
