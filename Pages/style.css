@@ -9,7 +9,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* We are making nav menu bar */
+/*
+
+     We are making nav menu bar
+
+*/
 
 .navbar {
     width: 100%;
@@ -48,6 +52,7 @@ input {
     height: 43px;
     border: 0;
     font-size: 15px;
+    outline: 0;
 }
 
 .slider {
@@ -80,75 +85,20 @@ input {
     color: rgb(19, 19, 85);
 }
 
-/* Navbar close here */
+/*
+
+    Navbar close here
+    
+*/
 
 
-/* Media query start here */
+/*
 
-@media (max-width: 1000px) {
-    .navbar {
-        width: 100%;
-        height: 8rem;
-        background-color: white;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    Media query start here
+    
+*/
 
-    .icons-div {
-        display: none;
-    }
-
-    input {
-        width: 23rem;
-        height: 43px;
-        border: 0;
-        font-size: 17px;
-        outline: 0;
-    }
-}
-
-@media (max-width: 730px) {
-    .navbar {
-        width: 100%;
-        height: 8rem;
-        background-color: white;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .icons-div {
-        display: none;
-    }
-
-    input {
-        width: 23rem;
-        height: 43px;
-        border: 0;
-        font-size: 12px;
-        outline: 0;
-        height: 35px;
-        padding-left: 10px;
-    }
-
-    .search-bar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-radius: 25px;
-        border: 1px solid black;
-        width: 20rem;
-        height: 40px;
-        background-color: white;
-    }
-
-    .search-icon {
-        padding-left: 20px;
-    }
-}
-
-@media (max-width: 550px) {
+@media only screen and (max-width: 1100px) and (min-width: 900px) {
     .navbar {
         width: 100%;
         height: 8rem;
@@ -160,25 +110,49 @@ input {
 
     .morent {
         padding-left: 20px;
-        font-size: 30px;
+        color: rgb(19, 19, 85);
+        font-size: 40px;
     }
 
     .icons-div {
-        display: none;
+        margin-right: -100px;
+        padding-top: 10px;
+        width: 300px;
+        height: 50px;
     }
 
-    .slider {
-        font-size: 15px;
+    .heart {
+        padding-left: 25px;
+        font-size: 25px;
+        color: rgb(19, 19, 85);
     }
 
-    input {
-        width: 5rem;
-        height: 40px;
-        border: 0;
-        font-size: 5px;
-        outline: 0;
-        height: 35px;
-        padding-left: 10px;
+    .bell {
+        padding-left: 30px;
+        font-size: 25px;
+        color: rgb(19, 19, 85);
+    }
+
+    .setting {
+        padding-left: 30px;
+        font-size: 25px;
+        color: rgb(19, 19, 85);
+    }
+}
+
+@media only screen and (max-width: 899px) and (min-width: 550px) {
+    .navbar {
+        width: 100%;
+        height: 8rem;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .morent{
+        font-size: 35px;
+        padding-left: 30px;
     }
 
     .search-bar {
@@ -187,31 +161,325 @@ input {
         align-items: center;
         border-radius: 25px;
         border: 1px solid black;
-        width: 10rem;
+        width: 20rem;
+        height: 50px;
+        background-color: white;
+    }
+
+    .icons-div {
+        display: none;
+    }
+
+    input {
+        width: 23rem;
+        height: 43px;
+        border: 0;
+        font-size: 15px;
+        outline: 0;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 549px) and
+(min-width: 320px) {
+    .navbar {
+        width: 100%;
+        height: 8rem;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .morent {
+        padding-left: 20px;
+        font-size: 40px;
+    }
+
+    .icons-div {
+        display: none;
+    }
+
+    input {
+        width: 5rem;
+        height: 40px;
+        border: 0;
+        font-size: 7px;
+        outline: 0;
+        height: 35px;
+    }
+
+    .search-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 25px;
+        border: 1px solid black;
+        width: 12rem;
         height: 40px;
         background-color: white;
     }
 
-    .search-icon {
+    .search-icon{
         font-size: 15px;
-        padding-left: 20px;
     }
+    .slider{
+        font-size: 15px;
+    }
+
 }
 
 
-/* Navbar close media query here */
+/*
 
-/* Two div content and car start here */
+    Navbar close media query here
+    
+*/
+
+/*
+
+    Two cars div content start here
+     */
+
 
 .main-container {
+    margin-top: 50px;
     display: flex;
     gap: 50px;
+    justify-content: center;
 }
 
 .div-one {
-    width: 40vw;
-    height: 50rem;
-    
+    border-radius: 15px;
+    width: 45vw;
+    height: 32rem;
+    background-color: #54a6ff;
 }
 
-.div-two {}
+.car-heading {
+    font-size: 40px;
+    color: white;
+    padding: 25px;
+}
+
+.car-content {
+    font-size: 22px;
+    color: white;
+    padding: 25px;
+    word-spacing: 5px;
+}
+
+.btn_1 {
+    color: white;
+    font-size: 20px;
+    background-color: #264bc8;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.car-div {
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 20vw;
+}
+
+.image {
+    width: 20vw;
+}
+
+.div-two {
+    border-radius: 15px;
+    width: 45vw;
+    height: 32rem;
+    background-color: #264bc8;
+}
+
+.car_heading {
+    font-size: 40px;
+    color: white;
+    padding: 25px;
+}
+
+.car_content {
+    font-size: 22px;
+    color: white;
+    padding: 25px;
+    word-spacing: 5px;
+}
+
+.btn_2 {
+    color: white;
+    font-size: 20px;
+    background-color: #54a6ff;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.car_div {
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 20vw;
+}
+
+.image-2 {
+    width: 20vw;
+}
+
+/*
+
+    Two cars div content close here
+    
+*/
+
+/*
+
+    Media Query two cars div start here
+    
+*/
+
+@media only screen and (max-width: 950px) and (min-width: 620px) {
+    .car-heading {
+        font-size: 25px;
+    }
+
+    .car_heading {
+        font-size: 25px;
+    }
+
+    .car-content {
+        font-size: 18px;
+    }
+
+    .car_content {
+        font-size: 18px;
+    }
+
+    .btn_1 {
+        margin-left: 50px;
+    }
+
+    .btn_2 {
+        margin-left: 50px;
+    }
+
+    .car-div {
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+    .car_div {
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 619px) and (min-width: 319px) {
+
+    .div-one {
+        height: 25rem;
+        width: 80vw;
+    }
+
+    .car-heading{
+        font-size: 23px;
+    }
+
+    .car-content{
+        font-size: 15px;
+    }
+
+    .btn_1{
+        height: 35px;
+        width: 100px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .car-div{
+        margin-left: 150px;
+        width: 35vw;    
+    }
+
+    .image{
+        width: 35vw;
+    }
+
+    .div-two {
+        display: none;
+    }
+}
+
+/*
+
+    Media Query two cars div close here
+    
+*/
+
+/*
+
+        Now we are starting drop-off and drop-down containers content  
+        
+*/
+
+.parent-div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.drop-off{
+    background: white;
+    width: 42vw;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+.arrows-container{
+    align-self: center;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #264bc8;
+    border-radius: 5px;
+    gap: 2px;
+}
+
+.up-arrow{
+    color: white;
+    font-size: 18px;
+}
+.down-arrow{
+    color: white;
+    font-size: 18px;
+}
+
+.drop-down{
+    background: white;
+    width: 42vw;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+.pick-up{
+    font-size: 20px;
+}
+.radio-btn{
+    font-size: 200px;
+}
+
+/*
+
+    Now we are starting 12 gird cards content
+    
+*/
