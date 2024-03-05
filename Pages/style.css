@@ -149,8 +149,8 @@ input {
         justify-content: space-between;
         align-items: center;
     }
-    
-    .morent{
+
+    .morent {
         font-size: 35px;
         padding-left: 30px;
     }
@@ -180,8 +180,7 @@ input {
     }
 }
 
-@media only screen and (max-width: 549px) and
-(min-width: 320px) {
+@media only screen and (max-width: 549px) and (min-width: 320px) {
     .navbar {
         width: 100%;
         height: 8rem;
@@ -220,10 +219,11 @@ input {
         background-color: white;
     }
 
-    .search-icon{
+    .search-icon {
         font-size: 15px;
     }
-    .slider{
+
+    .slider {
         font-size: 15px;
     }
 
@@ -284,11 +284,11 @@ input {
 .car-div {
     margin-left: 200px;
     margin-top: 30px;
-    width: 20vw;
+    width: 25vw;
 }
 
 .image {
-    width: 20vw;
+    width: 25vw;
 }
 
 .div-two {
@@ -330,7 +330,7 @@ input {
 }
 
 .image-2 {
-    width: 20vw;
+    width: 25vw;
 }
 
 /*
@@ -355,11 +355,11 @@ input {
     }
 
     .car-content {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .car_content {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .btn_1 {
@@ -371,13 +371,24 @@ input {
     }
 
     .car-div {
-        margin-top: 50px;
-        margin-left: 150px;
+        margin-top: 70px;
+        margin-left: 80px;
+    }
+
+    .image {
+        width: 30vw;
+        height: 80px;
     }
 
     .car_div {
-        margin-top: 50px;
-        margin-left: 150px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    .image-2 {
+        width: 25vw;
+        height: 80px;
+
     }
 
 }
@@ -389,27 +400,27 @@ input {
         width: 80vw;
     }
 
-    .car-heading{
+    .car-heading {
         font-size: 23px;
     }
 
-    .car-content{
+    .car-content {
         font-size: 15px;
     }
 
-    .btn_1{
+    .btn_1 {
         height: 35px;
         width: 100px;
         font-size: 15px;
         margin-top: 10px;
     }
 
-    .car-div{
+    .car-div {
         margin-left: 150px;
-        width: 35vw;    
+        width: 35vw;
     }
 
-    .image{
+    .image {
         width: 35vw;
     }
 
@@ -430,53 +441,135 @@ input {
         
 */
 
-.parent-div{
+.parent-div {
     margin-top: 50px;
+    height: 10rem;
+    width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
 }
 
-.drop-off{
-    background: white;
+.drop-off {
     width: 42vw;
     height: 10rem;
+    background-color: white;
     border-radius: 10px;
 }
 
-.arrows-container{
-    align-self: center;
-    height: 65px;
-    width: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #264bc8;
+.radio-box{
+    margin: 20px 50px;
+}
+
+label{
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+#radio {
+    appearance: none;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    width: 20px;
+    height: 20px;
+    transition: 0.2s all linear;
+    /* position: relative; */
+}
+
+#radio:checked {
+    border: 6px solid black;
+
+}
+
+.arrows-div {
     border-radius: 5px;
-    gap: 2px;
+    width: 65px;
+    height: 65px;
+    background-color: #264bc8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
 
-.up-arrow{
+.up-arrow {
     color: white;
     font-size: 18px;
 }
-.down-arrow{
+
+.down-arrow {
     color: white;
     font-size: 18px;
 }
 
-.drop-down{
-    background: white;
+.drop-down {
     width: 42vw;
     height: 10rem;
+    background-color: white;
     border-radius: 10px;
 }
 
-.pick-up{
+.radio_box{
+    margin: 20px 50px;
+}
+
+label{
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+#Radio {
+    appearance: none;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    width: 20px;
+    height: 20px;
+    transition: 0.2s all linear;
+    /* position: relative; */
+}
+
+#Radio:checked {
+    border: 6px solid black;
+
+}
+
+.selector{
+    margin-top: 50px;
+    display: flex;
+}
+
+#location{
     font-size: 20px;
 }
-.radio-btn{
-    font-size: 200px;
+
+.select-1{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
 }
+.select-2{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#select-3{
+    height: 30px;
+    width: 150px;
+}
+
+.select-3:nth-last-child(1){
+    width: 200px;
+    border: none;
+}
+
+#time{
+    font-size: 20px;
+}
+
+
 
 /*
 
